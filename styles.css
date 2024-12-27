@@ -1,0 +1,129 @@
+.navbar-section {
+  background: blue;
+}
+.flipkart-logo {
+  width: 100px;
+}
+.category-section-img {
+  width: 50px;
+  height: 50px;
+}
+.category-section {
+  height: 100px;
+  width: 100%;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.category-section div {
+  width: 80px;
+  height: 80px;
+  background: white;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+/* index-page */
+.carousel-section {
+  justify-content: center;
+  align-items: center;
+}
+.carousel-img {
+  height: 500px;
+}
+.product-card {
+  height: 500px;
+}
+.product-image {
+  height: 250px;
+}
+.social-icons i {
+  font-size: 25px;
+}
+.social-icons i:hover {
+  color: beige;
+}
+.footer-section p {
+  font-size: 25px;
+}
+
+/* About-page */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-section h1 {
+  font-size: 4rem;
+}
+.ethics-section p {
+  color: rgb(84, 83, 80);
+}
+.ethics-section img {
+  width: 70%;
+  height: 55%;
+}
+.ethics-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Services-page */
+.header {
+  font-size: 50px;
+}
+.service-section {
+  margin-top: 50px;
+}
+.product-card {
+  height: 500px;
+}
+.product-image {
+  height: 250px;
+}
+
+/* Contact-page */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section h1 {
+  font-size: 4rem;
+}
+.textarea-section {
+  height: 100px !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse .nav-link {
+    margin-top: 10px; /* Add desired spacing */
+    color: white;
+    background: blue;
+    border-radius: 0px;
+  }
+  .navbar-collapse .nav-link:hover {
+    color: blue !important;
+    background: white;
+  }
+  .category-section div {
+    margin: 20px !important;
+  }
+  .submit-button {
+    width: 100%;
+  }
+  .w-100-sm {
+    width: 100% !important;
+  }
+}
